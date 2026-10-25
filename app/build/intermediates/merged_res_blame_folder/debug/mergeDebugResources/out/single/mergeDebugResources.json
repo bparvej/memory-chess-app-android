@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.colormemorychess.app-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.colormemorychess.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.colormemorychess.app-debug-41:/xml_backup_rules.xml.flat",
+        "source": "com.example.colormemorychess.app-main-43:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.colormemorychess.app-debug-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.colormemorychess.app-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.colormemorychess.app-debug-41:/layout_activity_game.xml.flat",
+        "source": "com.example.colormemorychess.app-main-43:/layout/activity_game.xml"
+    },
+    {
+        "merged": "com.example.colormemorychess.app-debug-41:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.colormemorychess.app-main-43:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.colormemorychess.app-debug-41:/layout_dialog_game_over.xml.flat",
+        "source": "com.example.colormemorychess.app-main-43:/layout/dialog_game_over.xml"
+    },
+    {
+        "merged": "com.example.colormemorychess.app-debug-41:/layout_dialog_game_mode.xml.flat",
+        "source": "com.example.colormemorychess.app-main-43:/layout/dialog_game_mode.xml"
+    },
+    {
+        "merged": "com.example.colormemorychess.app-debug-41:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.colormemorychess.app-main-43:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.colormemorychess.app-debug-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.colormemorychess.app-main-43:/drawable/ic_launcher_background.xml"
+    }
+]
