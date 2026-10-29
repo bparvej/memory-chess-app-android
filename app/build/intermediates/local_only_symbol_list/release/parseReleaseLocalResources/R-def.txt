@@ -18,6 +18,7 @@ color wood_dark
 color wood_light
 color wood_medium
 drawable ic_defeat_shield
+drawable ic_defeat_skull
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_victory_trophy

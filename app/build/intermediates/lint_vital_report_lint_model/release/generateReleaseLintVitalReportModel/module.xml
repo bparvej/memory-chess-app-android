@@ -6,9 +6,9 @@
     maven="Color Memory Chess:app:"
     agpVersion="8.3.2"
     buildFolder="build"
-    bootClassPath="C:\Users\parvej\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\parvej\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    bootClassPath="C:\Users\parvej\AppData\Local\Android\Sdk\platforms\android-36\android.jar;C:\Users\parvej\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
     javaSourceLevel="1.8"
-    compileTarget="android-34"
+    compileTarget="android-36"
     neverShrinking="true">
   <lintOptions
       abortOnError="true"

@@ -12,7 +12,7 @@
         android:padding="24dp"
         android:gravity="center_horizontal">
 
-        <!-- Glowing Icon Frame -->
+        <!-- Glowing Result Icon Frame -->
         <FrameLayout
             android:layout_width="72dp"
             android:layout_height="72dp"
@@ -24,19 +24,18 @@
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_gravity="center"
-                android:src="@android:drawable/btn_star_big_on"
-                app:tint="#FFD700"
+                android:src="@drawable/ic_victory_trophy"
                 android:contentDescription="@string/app_name" />
         </FrameLayout>
 
-        <!-- Result Header Title -->
+        <!-- Result Header Title (VICTORY / GAME OVER) -->
         <TextView
             android:id="@+id/tv_dialog_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/game_over"
             android:textColor="#FFD700"
-            android:textSize="24sp"
+            android:textSize="26sp"
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginBottom="16dp" />
@@ -57,8 +56,9 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:text="Winner &amp; Score Details"
-                android:textColor="@color/white"
-                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
                 android:gravity="center"
                 android:lineSpacingExtra="6dp" />
 

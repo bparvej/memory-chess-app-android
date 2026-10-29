@@ -1,0 +1,90 @@
+{
+  "app_name": "Memory Chess",
+  "default_language": "en-US",
+  "translations": [
+    {
+      "language_code": "en-US",
+      "language_name": "English (United States)",
+      "title": "Memory Chess",
+      "short_description": "Test and train your brain with colorful wooden pegs, 3D dice, and AI bots!",
+      "full_description": "Welcome to Memory Chess – the ultimate wooden peg color memory challenge!\n\nTrain your brain, sharpen your focus, and enjoy a classic board game experience beautifully rendered with 3D tumbling dice, concentric peg rings, and realistic sound effects.\n\n🎲 GAME MODES:\n1. Vs AI Bot: Test your memory against smart AI opponents with Easy, Medium, and Hard difficulty levels.\n2. Solo / Time Attack: 90-second countdown mode! Match as many colors as possible before time runs out.\n3. Pass & Play (2 Players): Challenge a friend on the same device in local multiplayer.\n4. Pass & Play (3 Players): 3-player local multiplayer action for family and friends!\n\n✨ KEY FEATURES:\n• Realistic Wooden Board & Concentric Peg Rings\n• 3D Tumbling Dice Rolling Animations & Sound Effects\n• Rewarded Undo Move Feature\n• Smart Probabilistic AI Engine\n• Instant Score & Time Stats Breakdown\n• Works Offline – Play Anytime, Anywhere!\n\nDownload Memory Chess now and become the ultimate memory master!"
+    },
+    {
+      "language_code": "es-ES",
+      "language_name": "Spanish (Spain)",
+      "title": "Ajedrez de Memoria",
+      "short_description": "¡Entrena tu cerebro con fichas de madera de colores, dados 3D y bots IA!",
+      "full_description": "¡Bienvenido a Ajedrez de Memoria – el desafío definitivo de memoria de colores con fichas de madera!\n\nEntrena tu cerebro, mejora tu concentración y disfruta de un juego de mesa clásico brillantemente diseñado con dados 3D animados, anillos concéntricos y efectos de sonido reales.\n\n🎲 MODOS DE JUEGO:\n1. Vs Bot IA: Pon a prueba tu memoria contra oponentes inteligentes en nivel Fácil, Medio y Difícil.\n2. Solitario / Ataque de Tiempo: ¡Cuenta regresiva de 90 segundos! Empareja tantos colores como puedas.\n3. Pasa y Juega (2 Jugadores): Desafía a un amigo en el mismo dispositivo.\n4. Pasa y Juega (3 Jugadores): Modo multijugador local para 3 personas.\n\n✨ CARACTERÍSTICAS:\n• Tablero de madera realista y anillos de fichas\n• Animaciones de dados 3D y efectos de sonido\n• Función de deshacer movimiento\n• Funciona sin conexión a internet\n\n¡Descarga Ajedrez de Memoria ahora!"
+    },
+    {
+      "language_code": "fr-FR",
+      "language_name": "French (France)",
+      "title": "Échecs de Mémoire",
+      "short_description": "Entraînez votre cerveau avec des pions en bois, dés 3D et bots IA !",
+      "full_description": "Bienvenue dans Échecs de Mémoire – le défi ultime de mémoire des couleurs en bois !\n\nEntraînez votre cerveau et améliorez votre concentration avec un jeu de plateau classique doté de dés 3D animés et d'effets sonores immersifs.\n\n🎲 MODES DE JEU :\n1. Contre l'IA : Affrontez des bots intelligents (Facile, Moyen, Difficile).\n2. Solo / Attaque Contre-la-Montre : 90 secondes pour associer un maximum de couleurs !\n3. Pass & Play (2 Joueurs) : Jouez avec un ami sur le même appareil.\n4. Pass & Play (3 Joueurs) : Mode multijugador local pour 3 joueurs.\n\n✨ CARACTÉRISTIQUES :\n• Plateau en bois réaliste\n• Lancer de dés 3D avec sons\n• Annulation de coup disponible\n• Jouable hors ligne\n\nTéléchargez Échecs de Mémoire dès maintenant !"
+    },
+    {
+      "language_code": "de-DE",
+      "language_name": "German (Germany)",
+      "title": "Memory Schach",
+      "short_description": "Trainiere dein Gehirn mit bunten Holzstiften, 3D-Würfeln und KI-Bots!",
+      "full_description": "Willkommen bei Memory Schach – der ultimativen Farb-Memory-Herausforderung aus Holz!\n\nTrainiere dein Gedächtnis und deine Konzentration mit einem wunderschönen Holzbrett, 3D-Würfel-Animationen und realistischen Soundeffekten.\n\n🎲 SPIELMODI:\n1. Gegen KI-Bot: Spiele gegen KI-Gegner in Leicht, Mittel und Schwer.\n2. Solo / Zeitangriff: 90 Sekunden Countdown! Finde so viele Farbreihen wie möglich.\n3. Pass & Play (2 Spieler): Spiele lokal mit einem Freund auf demselben Gerät.\n4. Pass & Play (3 Spieler): Lokaler Mehrspielermodus für 3 Personen.\n\n✨ FEATURES:\n• Realistisches Holzbrett & Stiftringe\n• 3D-Würfelanimationen & Soundeffekte\n• Zug rückgängig machen\n• Offline spielbar\n\nJetzt Memory Schach herunterladen!"
+    },
+    {
+      "language_code": "pt-BR",
+      "language_name": "Portuguese (Brazil)",
+      "title": "Xadrez de Memória",
+      "short_description": "Treine seu cérebro com pinos de madeira coloridos, dados 3D e IA!",
+      "full_description": "Bem-vindo ao Xadrez de Memória – o desafio definitivo de memória de cores em madeira!\n\nTreine seu cérebro e melhore sua concentração com um jogo de tabuleiro clássico em madeira, dados 3D animados e efeitos sonoros incríveis.\n\n🎲 MODOS DE JOGO:\n1. Contra Bot IA: Teste sua memória contra a IA nos níveis Fácil, Médio e Difícil.\n2. Solo / Contra o Tempo: Desafio de 90 segundos para combinar o máximo de cores.\n3. Passa e Joga (2 Jogadores): Jogue com um amigo no mesmo aparelho.\n4. Passa e Joga (3 Jogadores): Multijogador local para 3 pessoas.\n\n✨ DESTAQUES:\n• Tabuleiro de madeira realista\n• Dados 3D animados com som\n• Recurso de desfazer jogada\n• Funciona offline\n\nBaixe o Xadrez de Memória agora mesmo!"
+    },
+    {
+      "language_code": "hi-IN",
+      "language_name": "Hindi (India)",
+      "title": "मेमोरी चेस (Memory Chess)",
+      "short_description": "रंगीन लकड़ी की गोटियों, 3D पासे और AI बॉट के साथ अपने दिमाग को तेज करें!",
+      "full_description": "मेमोरी चेस (Memory Chess) में आपका स्वागत है - लकड़ी की रंगीन गोटियों का शानदार मेमोरी गेम!\n\nअपने दिमाग को तेज करें, एकाग्रता बढ़ाएं और 3D पासे के रोलिंग एनिमेशन और रियल साउंड इफेक्ट्स के साथ क्लासिक बोर्ड गेम का आनंद लें।\n\n🎲 गेम मोड्स:\n1. वर्सेस AI बॉट (Vs AI Bot): ईज़ी, मीडियम और हार्ड कठिनाई स्तरों पर AI से मुकाबला करें।\n2. सोलो / टाइम अटैक (Solo Time Attack): 90-सेकंड का टाइमर! समय समाप्त होने से पहले अधिक से अधिक रंग मिलाएं।\n3. पास एंड प्ले (2 खिलाड़ी): एक ही फोन पर अपने दोस्त के साथ खेलें।\n4. पास एंड प्ले (3 खिलाड़ी): 3 खिलाड़ियों के लिए लोकल मल्टीप्लेयर गेम।\n\n✨ खास फीचर्स:\n• यथार्थवादी लकड़ी का बोर्ड और गोटियां\n• 3D डाइस एनिमेशन और साउंड\n• अनडू (Undo) मूव फीचर\n• बिना इंटरनेट के ऑफलाइन खेलें\n\nअभी मेमोरी चेस डाउनलोड करें!"
+    },
+    {
+      "language_code": "ja-JP",
+      "language_name": "Japanese (Japan)",
+      "title": "メモリーチェス (Memory Chess)",
+      "short_description": "カラフルな木製コマ、3Dサイコロ、AIボットで脳トレ！",
+      "full_description": "メモリーチェスへようこそ！木製ペグを使った究極のカラー記憶力チャレンジ！\n\n3Dサイコロのアニメーションやリアルな音響効果とともに、記憶力と集中力をトレーニングしましょう。\n\n🎲 ゲームモード:\n1. VS AIボット: イージー、ミディアム、ハードの難易度でAIと対戦。\n2. ソロ/タイムアタック: 90秒カウントダウンで色のペアをたくさん見つけよう！\n3. パス＆プレイ (2人プレイ): 1台の端末で友達と対戦。\n4. パス＆プレイ (3人プレイ): 3人ローカル対戦モード。\n\n✨ 主な特徴:\n• リアルな木製ボードデザイン\n• 3Dサイコロアニメーション＆効果音\n• 待った（Undo）機能搭載\n• オフラインでプレイ可能\n\n今すぐメモリーチェスをダウンロードしよう！"
+    },
+    {
+      "language_code": "ko-KR",
+      "language_name": "Korean (South Korea)",
+      "title": "메모리 체스 (Memory Chess)",
+      "short_description": "알록달록한 원목 핀, 3D 주사위, AI 봇과 함께 두뇌를 두드려보세요!",
+      "full_description": "메모리 체스에 오신 것을 환영합니다 – 원목 컬러 기억력 보드게임의 종결자!\n\n3D 주사위 굴림 애니메이션과 생생한 사운드 효과로 두뇌를 자극하고 집중력을 키워보세요.\n\n🎲 게임 모드:\n1. AI 봇 대전: 쉬움, 보통, 어려움 난이도의 인공지능과 대결하세요.\n2. 솔로 / 타임 어택: 90초 동안 최대한 많은 색상을 맞추는 모드!\n3. 패스 & 플레이 (2인): 한 기기로 친구와 함께 즐기는 2인용 모드.\n4. 패스 & 플레이 (3인): 3인용 로컬 멀티플레이어 모드.\n\n✨ 주요 특징:\n• 리얼한 원목 보드 디자인\n• 3D 주사위 모션 & 사운드\n• 무르기(Undo) 기능 지원\n• 오프라인 플레이 가능\n\n지금 바로 메모리 체스를 다운로드하세요!"
+    },
+    {
+      "language_code": "ar",
+      "language_name": "Arabic",
+      "title": "شطرنج الذاكرة (Memory Chess)",
+      "short_description": "درّب عقلك مع القطع الخشبية الملونة، النرد ثلاثي الأبعاد والذكاء الاصطناعي!",
+      "full_description": "مرحبًا بك في شطرنج الذاكرة (Memory Chess) - التحدي الأفضل لذاكرة الألوان بالقطع الخشبية!\n\nدرّب عقلك وزد من تركيزك واستمتع بلعبة لوحية كلاسيكية مع رمي النرد ثلاثي الأبعاد والمؤثرات الصوتية الممتعة.\n\n🎲 أنماط اللعب:\n1. ضد الذكاء الاصطناعي: اختبر ذاكرتك مستويات سهل، متوسط، وصعب.\n2. اللعب الفردي / هجوم الوقت: 90 ثانية لمطابقة أكبر عدد ممكن من الألوان!\n3. التمرير واللعب (لاعبان): تحدَّ صديقك على نفس الجهاز.\n4. التمرير واللعب (3 لاعبين): نمط متعدد اللاعبين المحلي لـ 3 أشخاص.\n\n✨ المميزات:\n• لوحة خشبية واقعية وقطع ملونة\n• حركات نرد ثلاثية الأبعاد وأصوات واقعية\n• خاصية التراجع عن الحركة\n• تعمل بدون إنترنت (Offline)\n\nحمل شطرنج الذاكرة الآن!"
+    },
+    {
+      "language_code": "id",
+      "language_name": "Indonesian (Indonesia)",
+      "title": "Catur Memori (Memory Chess)",
+      "short_description": "Latih otakmu dengan pasak kayu warna-warni, dadu 3D, dan bot AI!",
+      "full_description": "Selamat datang di Catur Memori (Memory Chess) – tantangan memori warna pasak kayu terbaik!\n\nLatih otak dan tingkatkan fokusmu dengan papan permainan kayu klasik yang dilengkapi animasi dadu 3D dan efek suara yang nyata.\n\n🎲 MODE PERMAINAN:\n1. Vs AI Bot: Uji memorimu melawan bot pintar tingkat Mudah, Sedang, dan Sulit.\n2. Solo / Time Attack: Mode hitung mundur 90 detik! Cocokkan warna sebanyak mungkin.\n3. Pass & Play (2 Pemain): Tantang teman dalam satu perangkat.\n4. Pass & Play (3 Pemain): Mode multipemain lokal untuk 3 orang.\n\n✨ FITUR UTAMA:\n• Papan kayu realistis & pasak warna-warni\n• Animasi dadu 3D & efek suara\n• Fitur Batal Langkah (Undo)\n• Bisa dimainkan secara offline\n\nUnduh Catur Memori sekarang!"
+    },
+    {
+      "language_code": "zh-CN",
+      "language_name": "Chinese (Simplified)",
+      "title": "记忆棋 (Memory Chess)",
+      "short_description": "用彩色木棋、3D骰子和AI机器人训练你的大脑！",
+      "full_description": "欢迎来到《记忆棋》(Memory Chess)——经典的木棋颜色记忆挑战！\n\n锻炼大脑，提升专注力，体验精致的木制棋盘、3D骰子滚动作和逼真的音效。\n\n🎲 游戏模式：\n1. 人机对战 (Vs AI Bot)：挑战简单、中等和困难不同智商的AI。\n2. 单人限时赛 (Solo Time Attack)：90秒倒计时！尽可能的匹配更多颜色。\n3. 同屏双人 (Pass & Play 2P)：在一台设备上与朋友对战。\n4. 同屏三人 (Pass & Play 3P)：适合家庭和朋友的3人本地对战。\n\n✨ 游戏特色：\n• 逼真的木质棋盘与棋子设计\n• 3D骰子动画与音效\n• 支持悔棋 (Undo) 功能\n• 支持离线单机游玩\n\n立即下载《记忆棋》，成为记忆大师！"
+    },
+    {
+      "language_code": "ru-RU",
+      "language_name": "Russian (Russia)",
+      "title": "Шахматы Памяти (Memory Chess)",
+      "short_description": "Тренируйте мозг с цветными фишками, 3D-кубиком и ИИ-ботами!",
+      "full_description": "Добро пожаловать в Шахматы Памяти – увлекательную логическую игру на запоминание цветов!\n\nТренируйте память и внимание с помощью деревянного поля, 3D-анимации броска кубика и звуковых эффектов.\n\n🎲 РЕЖИМЫ ИГРЫ:\n1. Против ИИ-бота: Испытайте себя на Легком, Среднем и Сложном уровне.\n2. Соло / На время: 90 секунд! Соберите как можно больше совпадений.\n3. Игра на одном экране (2 игрока): Играйте с другом на одном устройстве.\n4. Игра на одном экране (3 игрока): Локальный режим для троих.\n\n✨ ОСОБЕННОСТИ:\n• Реалистичная деревянная доска\n• 3D-анимация кубика и звуки\n• Функция отмены хода (Undo)\n• Работает без интернета\n\nСкачайте Шахматы Памяти прямо сейчас!"
+    }
+  ]
+}

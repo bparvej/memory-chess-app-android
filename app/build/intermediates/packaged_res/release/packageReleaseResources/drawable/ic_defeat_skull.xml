@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Red Defeat Skull / Crossbones -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M12,2C8.13,2 5,5.13 5,9c0,2.38 1.19,4.47 3,5.74V17c0,0.55 0.45,1 1,1h1v1c0,0.55 0.45,1 1,1h2c0.55,0 1,-0.45 1,-1v-1h1c0.55,0 1,-0.45 1,-1v-2.26c1.81,-1.27 3,-3.36 3,-5.74c0,-3.87 -3.13,-7 -7,-7z M9,9c-0.83,0 -1.5,-0.67 -1.5,-1.5S8.17,6 9,6s1.5,0.67 1.5,1.5S9.83,9 9,9z M15,9c-0.83,0 -1.5,-0.67 -1.5,-1.5S14.17,6 15,6s1.5,0.67 1.5,1.5S15.83,9 15,9z M12,14c-1.1,0 -2,-0.9 -2,-2h4c0,1.1 -0.9,2 -2,2z"/>
+</vector>

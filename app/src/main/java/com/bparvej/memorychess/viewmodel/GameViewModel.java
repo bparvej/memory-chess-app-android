@@ -295,30 +295,30 @@ public class GameViewModel extends ViewModel {
         long time = timeRemaining.getValue() != null ? timeRemaining.getValue() : 0;
 
         if (mode == GameMode.SOLO_TIME_ATTACK) {
-            endGame("BOARD CLEARED!", "Final Score: " + p1 + "\nTime Remaining: " + time + "s\nHigh Score: " + soloHighScore.getValue());
+            endGame("BOARD CLEARED", "Final Score: " + p1 + "\nTime Remaining: " + time + "s\nHigh Score: " + soloHighScore.getValue());
         } else if (mode == GameMode.VS_BOT) {
             if (p1 > p2) {
-                endGame("🏆 VICTORY!", "Player 1 Won against the Bot!\n\nPlayer 1 Score: " + p1 + "\nBot Score: " + p2);
+                endGame("VICTORY!", "Player 1 Won against the Bot!\n\nPlayer 1 Score: " + p1 + "\nBot Score: " + p2);
             } else if (p2 > p1) {
-                endGame("💀 GAME OVER", "Bot Won the Match!\n\nBot Score: " + p2 + "\nPlayer 1 Score: " + p1);
+                endGame("GAME OVER", "Bot Won the Match!\n\nBot Score: " + p2 + "\nPlayer 1 Score: " + p1);
             } else {
-                endGame("🤝 TIE GAME!", "It's a Tie!\n\nScore: " + p1 + " - " + p2);
+                endGame("TIE GAME", "It's a Tie!\n\nScore: " + p1 + " - " + p2);
             }
         } else if (mode == GameMode.PASS_AND_PLAY_2P) {
             if (p1 > p2) {
-                endGame("🏆 PLAYER 1 WINS!", "Player 1 Won!\n\nPlayer 1: " + p1 + "\nPlayer 2: " + p2);
+                endGame("PLAYER 1 WINS", "Player 1 Won!\n\nPlayer 1: " + p1 + "\nPlayer 2: " + p2);
             } else if (p2 > p1) {
-                endGame("🏆 PLAYER 2 WINS!", "Player 2 Won!\n\nPlayer 2: " + p2 + "\nPlayer 1: " + p1);
+                endGame("PLAYER 2 WINS", "Player 2 Won!\n\nPlayer 2: " + p2 + "\nPlayer 1: " + p1);
             } else {
-                endGame("🤝 TIE GAME!", "It's a Tie!\n\nScore: " + p1 + " - " + p2);
+                endGame("TIE GAME", "It's a Tie!\n\nScore: " + p1 + " - " + p2);
             }
         } else if (mode == GameMode.PASS_AND_PLAY_3P) {
             if (p1 >= p2 && p1 >= p3) {
-                endGame("🏆 PLAYER 1 WINS!", "Player 1 Won!\n\nP1: " + p1 + " | P2: " + p2 + " | P3: " + p3);
+                endGame("PLAYER 1 WINS", "Player 1 Won!\n\nP1: " + p1 + " | P2: " + p2 + " | P3: " + p3);
             } else if (p2 >= p1 && p2 >= p3) {
-                endGame("🏆 PLAYER 2 WINS!", "Player 2 Won!\n\nP1: " + p1 + " | P2: " + p2 + " | P3: " + p3);
+                endGame("PLAYER 2 WINS", "Player 2 Won!\n\nP1: " + p1 + " | P2: " + p2 + " | P3: " + p3);
             } else {
-                endGame("🏆 PLAYER 3 WINS!", "Player 3 Won!\n\nP1: " + p1 + " | P2: " + p2 + " | P3: " + p3);
+                endGame("PLAYER 3 WINS", "Player 3 Won!\n\nP1: " + p1 + " | P2: " + p2 + " | P3: " + p3);
             }
         }
     }

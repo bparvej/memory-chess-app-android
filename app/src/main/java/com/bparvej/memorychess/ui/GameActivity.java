@@ -179,7 +179,7 @@ public class GameActivity extends AppCompatActivity {
                     SoundManager.getInstance().playDefeatSound();
                 }
 
-                showGameOverDialog(title != null ? title : "Game Over", msg != null ? msg : "");
+                showGameOverDialog(title != null ? title : "GAME OVER", msg != null ? msg : "");
             }
         });
 
@@ -263,16 +263,19 @@ public class GameActivity extends AppCompatActivity {
         Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.dialog_how_to_play);
         dialog.show();
+
         if (dialog.getWindow() != null) {
-            int dialogWidth = (int) (getResources().getDisplayMetrics().widthPixels * 0.90);
+            int dialogWidth = (int) (getResources().getDisplayMetrics().widthPixels * 0.88);
             dialog.getWindow().setLayout(dialogWidth, ViewGroup.LayoutParams.WRAP_CONTENT);
         }
 
         MaterialButton btnClose = dialog.findViewById(R.id.btn_close_how_to_play);
-        btnClose.setOnClickListener(v -> {
-            dialog.dismiss();
-            boardView.scheduleIdleFingerHint();
-        });
+        if (btnClose != null) {
+            btnClose.setOnClickListener(v -> {
+                dialog.dismiss();
+                boardView.scheduleIdleFingerHint();
+            });
+        }
     }
 
     private void showQuitConfirmationDialog() {
@@ -280,23 +283,28 @@ public class GameActivity extends AppCompatActivity {
         Dialog dialog = new Dialog(this);
         dialog.setContentView(R.layout.dialog_quit);
         dialog.show();
+
         if (dialog.getWindow() != null) {
-            int dialogWidth = (int) (getResources().getDisplayMetrics().widthPixels * 0.90);
+            int dialogWidth = (int) (getResources().getDisplayMetrics().widthPixels * 0.88);
             dialog.getWindow().setLayout(dialogWidth, ViewGroup.LayoutParams.WRAP_CONTENT);
         }
 
         MaterialButton btnCancel = dialog.findViewById(R.id.btn_cancel_quit);
         MaterialButton btnConfirm = dialog.findViewById(R.id.btn_confirm_quit);
 
-        btnCancel.setOnClickListener(v -> {
-            dialog.dismiss();
-            boardView.scheduleIdleFingerHint();
-        });
+        if (btnCancel != null) {
+            btnCancel.setOnClickListener(v -> {
+                dialog.dismiss();
+                boardView.scheduleIdleFingerHint();
+            });
+        }
 
-        btnConfirm.setOnClickListener(v -> {
-            dialog.dismiss();
-            showGameModeDialog();
-        });
+        if (btnConfirm != null) {
+            btnConfirm.setOnClickListener(v -> {
+                dialog.dismiss();
+                showGameModeDialog();
+            });
+        }
     }
 
     private void showGameModeDialog() {
@@ -305,8 +313,9 @@ public class GameActivity extends AppCompatActivity {
         dialog.setContentView(R.layout.dialog_game_mode);
         dialog.setCancelable(false);
         dialog.show();
+
         if (dialog.getWindow() != null) {
-            int dialogWidth = (int) (getResources().getDisplayMetrics().widthPixels * 0.90);
+            int dialogWidth = (int) (getResources().getDisplayMetrics().widthPixels * 0.88);
             dialog.getWindow().setLayout(dialogWidth, ViewGroup.LayoutParams.WRAP_CONTENT);
         }
 
@@ -316,39 +325,45 @@ public class GameActivity extends AppCompatActivity {
         RadioButton rbHard = dialog.findViewById(R.id.rb_hard);
         Button btnStart = dialog.findViewById(R.id.btn_start_game);
 
-        rgModes.setOnCheckedChangeListener((group, checkedId) -> {
-            if (checkedId == R.id.rb_vs_bot) {
-                layoutDiff.setVisibility(View.VISIBLE);
-            } else {
-                layoutDiff.setVisibility(View.GONE);
-            }
-        });
+        if (rgModes != null && layoutDiff != null) {
+            rgModes.setOnCheckedChangeListener((group, checkedId) -> {
+                if (checkedId == R.id.rb_vs_bot) {
+                    layoutDiff.setVisibility(View.VISIBLE);
+                } else {
+                    layoutDiff.setVisibility(View.GONE);
+                }
+            });
+        }
 
-        btnStart.setOnClickListener(v -> {
-            GameMode mode = GameMode.VS_BOT;
-            int selectedId = rgModes.getCheckedRadioButtonId();
+        if (btnStart != null) {
+            btnStart.setOnClickListener(v -> {
+                GameMode mode = GameMode.VS_BOT;
+                if (rgModes != null) {
+                    int selectedId = rgModes.getCheckedRadioButtonId();
 
-            if (selectedId == R.id.rb_solo) {
-                mode = GameMode.SOLO_TIME_ATTACK;
-            } else if (selectedId == R.id.rb_pass_play_2p) {
-                mode = GameMode.PASS_AND_PLAY_2P;
-            } else if (selectedId == R.id.rb_pass_play_3p) {
-                mode = GameMode.PASS_AND_PLAY_3P;
-            } else if (selectedId == R.id.rb_vs_bot) {
-                mode = GameMode.VS_BOT;
-            }
+                    if (selectedId == R.id.rb_solo) {
+                        mode = GameMode.SOLO_TIME_ATTACK;
+                    } else if (selectedId == R.id.rb_pass_play_2p) {
+                        mode = GameMode.PASS_AND_PLAY_2P;
+                    } else if (selectedId == R.id.rb_pass_play_3p) {
+                        mode = GameMode.PASS_AND_PLAY_3P;
+                    } else if (selectedId == R.id.rb_vs_bot) {
+                        mode = GameMode.VS_BOT;
+                    }
+                }
 
-            BotDifficulty difficulty = BotDifficulty.EASY;
-            if (mode == GameMode.VS_BOT) {
-                if (rbEasy.isChecked()) difficulty = BotDifficulty.EASY;
-                else if (rbHard.isChecked()) difficulty = BotDifficulty.HARD;
-                else difficulty = BotDifficulty.MEDIUM;
-            }
+                BotDifficulty difficulty = BotDifficulty.EASY;
+                if (mode == GameMode.VS_BOT && rbEasy != null && rbHard != null) {
+                    if (rbEasy.isChecked()) difficulty = BotDifficulty.EASY;
+                    else if (rbHard.isChecked()) difficulty = BotDifficulty.HARD;
+                    else difficulty = BotDifficulty.MEDIUM;
+                }
 
-            dialog.dismiss();
-            viewModel.startGame(mode, difficulty);
-            boardView.scheduleIdleFingerHint();
-        });
+                dialog.dismiss();
+                viewModel.startGame(mode, difficulty);
+                boardView.scheduleIdleFingerHint();
+            });
+        }
     }
 
     private void showGameOverDialog(String titleText, String messageText) {
@@ -358,7 +373,7 @@ public class GameActivity extends AppCompatActivity {
         dialog.show();
 
         if (dialog.getWindow() != null) {
-            int dialogWidth = (int) (getResources().getDisplayMetrics().widthPixels * 0.90);
+            int dialogWidth = (int) (getResources().getDisplayMetrics().widthPixels * 0.88);
             dialog.getWindow().setLayout(dialogWidth, ViewGroup.LayoutParams.WRAP_CONTENT);
         }
 
@@ -366,29 +381,40 @@ public class GameActivity extends AppCompatActivity {
         TextView tvMsg = dialog.findViewById(R.id.tv_dialog_message);
         ImageView ivIcon = dialog.findViewById(R.id.iv_result_icon);
 
-        tvTitle.setText(titleText);
-        tvMsg.setText(messageText);
+        if (tvTitle != null) {
+            tvTitle.setText(titleText != null ? titleText : "GAME OVER");
+        }
 
-        if (titleText.contains("VICTORY") || titleText.contains("WINS") || titleText.contains("CLEARED")) {
-            ivIcon.setImageResource(R.drawable.ic_victory_trophy);
-        } else {
-            ivIcon.setImageResource(R.drawable.ic_defeat_shield);
+        if (tvMsg != null) {
+            tvMsg.setText(messageText != null ? messageText : "");
+        }
+
+        if (ivIcon != null) {
+            if (titleText != null && (titleText.contains("VICTORY") || titleText.contains("WINS") || titleText.contains("CLEARED"))) {
+                ivIcon.setImageResource(R.drawable.ic_victory_trophy);
+            } else {
+                ivIcon.setImageResource(R.drawable.ic_defeat_skull);
+            }
         }
 
         MaterialButton btnAgain = dialog.findViewById(R.id.btn_play_again);
         MaterialButton btnChangeMode = dialog.findViewById(R.id.btn_change_mode);
 
-        btnAgain.setOnClickListener(v -> {
-            dialog.dismiss();
-            AdManager.getInstance().showInterstitial(this, () -> {
-                viewModel.startGame(viewModel.getGameMode().getValue(), viewModel.getBotDifficulty().getValue());
-                boardView.scheduleIdleFingerHint();
+        if (btnAgain != null) {
+            btnAgain.setOnClickListener(v -> {
+                dialog.dismiss();
+                AdManager.getInstance().showInterstitial(this, () -> {
+                    viewModel.startGame(viewModel.getGameMode().getValue(), viewModel.getBotDifficulty().getValue());
+                    boardView.scheduleIdleFingerHint();
+                });
             });
-        });
+        }
 
-        btnChangeMode.setOnClickListener(v -> {
-            dialog.dismiss();
-            AdManager.getInstance().showInterstitial(this, this::showGameModeDialog);
-        });
+        if (btnChangeMode != null) {
+            btnChangeMode.setOnClickListener(v -> {
+                dialog.dismiss();
+                AdManager.getInstance().showInterstitial(this, this::showGameModeDialog);
+            });
+        }
     }
 }
