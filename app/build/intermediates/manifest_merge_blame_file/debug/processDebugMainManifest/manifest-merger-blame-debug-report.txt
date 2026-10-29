@@ -1,19 +1,19 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.colormemorychess"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+3    package="com.bparvej.memorychess"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-9        android:targetSdkVersion="34" />
+9        android:targetSdkVersion="36" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:5:22-76
 13    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 13-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\parvej\.gradle\caches\transforms-4\1ef9e44a0e52ea690d89508cd8858697\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:26:5-79
 13-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\parvej\.gradle\caches\transforms-4\1ef9e44a0e52ea690d89508cd8858697\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:26:22-76
@@ -64,61 +64,61 @@
 37
 38    <permission
 38-->[androidx.core:core:1.9.0] C:\Users\parvej\.gradle\caches\transforms-4\2f0b762fe58fd0b1ffb0c562d7ec27b7\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-39        android:name="com.example.colormemorychess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39        android:name="com.bparvej.memorychess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 39-->[androidx.core:core:1.9.0] C:\Users\parvej\.gradle\caches\transforms-4\2f0b762fe58fd0b1ffb0c562d7ec27b7\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 40        android:protectionLevel="signature" />
 40-->[androidx.core:core:1.9.0] C:\Users\parvej\.gradle\caches\transforms-4\2f0b762fe58fd0b1ffb0c562d7ec27b7\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 41
-42    <uses-permission android:name="com.example.colormemorychess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42    <uses-permission android:name="com.bparvej.memorychess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 42-->[androidx.core:core:1.9.0] C:\Users\parvej\.gradle\caches\transforms-4\2f0b762fe58fd0b1ffb0c562d7ec27b7\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 42-->[androidx.core:core:1.9.0] C:\Users\parvej\.gradle\caches\transforms-4\2f0b762fe58fd0b1ffb0c562d7ec27b7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 43
 44    <application
-44-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:8:5-32:19
+44-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:7:5-31:19
 45        android:allowBackup="true"
-45-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:9:9-35
+45-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:8:9-35
 46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 46-->[androidx.core:core:1.9.0] C:\Users\parvej\.gradle\caches\transforms-4\2f0b762fe58fd0b1ffb0c562d7ec27b7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 47        android:debuggable="true"
 48        android:extractNativeLibs="false"
 49        android:icon="@mipmap/ic_launcher"
-49-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:10:9-43
+49-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:9:9-43
 50        android:label="@string/app_name"
-50-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:11:9-41
+50-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:10:9-41
 51        android:roundIcon="@mipmap/ic_launcher_round"
-51-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:12:9-54
+51-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:11:9-54
 52        android:supportsRtl="true"
-52-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:13:9-35
+52-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:12:9-35
 53        android:theme="@style/Theme.ColorMemoryChess" >
-53-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:14:9-54
+53-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:13:9-54
 54
 55        <!-- AdMob Sample Application ID (Test ID) -->
 56        <meta-data
-56-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:17:9-19:70
+56-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:16:9-18:70
 57            android:name="com.google.android.gms.ads.APPLICATION_ID"
-57-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:18:13-69
+57-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:17:13-69
 58            android:value="ca-app-pub-3940256099942544~3347511713" />
-58-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:19:13-67
+58-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:18:13-67
 59
 60        <activity
-60-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:21:9-30:20
-61            android:name="com.example.colormemorychess.ui.GameActivity"
-61-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:22:13-44
+60-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:20:9-29:20
+61            android:name="com.bparvej.memorychess.ui.GameActivity"
+61-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:21:13-67
 62            android:exported="true"
-62-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:23:13-36
+62-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:22:13-36
 63            android:screenOrientation="portrait"
-63-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:24:13-49
+63-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:23:13-49
 64            android:theme="@style/Theme.ColorMemoryChess" >
-64-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:25:13-58
+64-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:24:13-58
 65            <intent-filter>
-65-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:26:13-29:29
+65-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:25:13-28:29
 66                <action android:name="android.intent.action.MAIN" />
-66-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:27:17-69
-66-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:27:25-66
+66-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:26:17-69
+66-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:26:25-66
 67
 68                <category android:name="android.intent.category.LAUNCHER" />
-68-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:28:17-77
-68-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:28:27-74
+68-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:27:17-77
+68-->C:\Users\parvej\StudioProjects\memory-chess-app-android\app\src\main\AndroidManifest.xml:27:27-74
 69            </intent-filter>
 70        </activity>
 71
@@ -126,7 +126,7 @@
 72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\parvej\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 73            android:name="androidx.startup.InitializationProvider"
 73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\parvej\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-74            android:authorities="com.example.colormemorychess.androidx-startup"
+74            android:authorities="com.bparvej.memorychess.androidx-startup"
 74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\parvej\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
 75            android:exported="false" >
 75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\parvej\.gradle\caches\transforms-4\aa8151602013719232593a1fa4a3c0a8\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
@@ -170,7 +170,7 @@
 95-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\parvej\.gradle\caches\transforms-4\1ef9e44a0e52ea690d89508cd8858697\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:63:9-68:43
 96            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
 96-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\parvej\.gradle\caches\transforms-4\1ef9e44a0e52ea690d89508cd8858697\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:64:13-76
-97            android:authorities="com.example.colormemorychess.mobileadsinitprovider"
+97            android:authorities="com.bparvej.memorychess.mobileadsinitprovider"
 97-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\parvej\.gradle\caches\transforms-4\1ef9e44a0e52ea690d89508cd8858697\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:65:13-73
 98            android:exported="false"
 98-->[com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\parvej\.gradle\caches\transforms-4\1ef9e44a0e52ea690d89508cd8858697\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:66:13-37

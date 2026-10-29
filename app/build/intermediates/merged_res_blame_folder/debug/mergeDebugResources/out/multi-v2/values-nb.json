@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.colormemorychess.app-mergeDebugResources-39:/values-nb/values-nb.xml",
+            "outputFile": "com.bparvej.memorychess.app-mergeDebugResources-39:/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\parvej\\.gradle\\caches\\transforms-4\\d0b23b70d1a7534ef325fb689c96e7b2\\transformed\\browser-1.4.0\\res\\values-nb\\values-nb.xml",

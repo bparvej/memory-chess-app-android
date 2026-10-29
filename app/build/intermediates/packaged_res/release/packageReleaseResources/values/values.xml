@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="peg_black">#212121</color>
+    <color name="peg_blue">#1E88E5</color>
+    <color name="peg_green">#43A047</color>
+    <color name="peg_red">#E53935</color>
+    <color name="peg_white">#FAFAFA</color>
+    <color name="peg_yellow">#FDD835</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="wood_accent">#D7CCC8</color>
+    <color name="wood_dark">#3E2723</color>
+    <color name="wood_light">#8D6E63</color>
+    <color name="wood_medium">#5D4037</color>
+    <string name="app_name">Memory Chess</string>
+    <string name="bot_easy">Easy (25% Memory)</string>
+    <string name="bot_hard">Hard (90% Memory)</string>
+    <string name="bot_medium">Medium (60% Memory)</string>
+    <string name="bot_score">Bot: %1$d</string>
+    <string name="change_mode">Change Mode</string>
+    <string name="game_over">Game Over</string>
+    <string name="high_score">High Score: %1$d</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="mode_pass_play_2p">Pass &amp; Play (2 Players)</string>
+    <string name="mode_pass_play_3p">Pass &amp; Play (3 Players)</string>
+    <string name="mode_pass_play_desc">Local multi-player mode. Match colors to earn extra turns!</string>
+    <string name="mode_solo">Solo / Time Attack</string>
+    <string name="mode_solo_desc">90-second countdown. Match as many colors as you can!</string>
+    <string name="mode_vs_bot">Vs AI Bot</string>
+    <string name="mode_vs_bot_desc">Test your memory against the AI opponent.</string>
+    <string name="no_undo_available">No move to undo!</string>
+    <string name="p1_score">P1: %1$d</string>
+    <string name="p2_score">P2: %1$d</string>
+    <string name="p3_score">P3: %1$d</string>
+    <string name="play_again">Play Again</string>
+    <string name="roll_dice">Roll Dice</string>
+    <string name="roll_first_prompt">Please roll the dice first!</string>
+    <string name="rolling">Rolling...</string>
+    <string name="score">Score: %1$d</string>
+    <string name="select_difficulty">Select Bot Difficulty</string>
+    <string name="select_mode">Select Game Mode</string>
+    <string name="target_color">Target Color:</string>
+    <string name="time_left">Time: %1$ds</string>
+    <string name="turn_bot">Bot\'s Turn...</string>
+    <string name="turn_p1">Player 1\'s Turn</string>
+    <string name="turn_p2">Player 2\'s Turn</string>
+    <string name="turn_p3">Player 3\'s Turn</string>
+    <string name="undo_move">Undo (Ad)</string>
+    <string name="undo_success">Move undone! Turn &amp; score restored.</string>
+    <string name="victory">Victory!</string>
+    <style name="Theme.ColorMemoryChess" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/wood_medium</item>
+        <item name="colorPrimaryVariant">@color/wood_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/wood_light</item>
+        <item name="colorSecondaryVariant">@color/wood_medium</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/wood_dark</item>
+    </style>
+</resources>

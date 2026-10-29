@@ -39,26 +39,43 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <!-- Mode Description Badge -->
-            <TextView
-                android:id="@+id/tv_mode_badge"
+            <!-- How to Play Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_how_to_play"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/mode_solo"
-                android:textColor="@color/wood_accent"
-                android:textSize="12sp"
+                android:text="@string/how_to_play"
+                android:textColor="#FFD700"
+                android:textSize="11sp"
+                app:icon="@android:drawable/ic_menu_help"
+                app:iconTint="#FFD700"
+                app:layout_constraintEnd_toStartOf="@id/btn_quit"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Quit Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_quit"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quit"
+                android:textColor="#FF6B6B"
+                android:textSize="11sp"
+                app:icon="@android:drawable/ic_menu_close_clear_cancel"
+                app:iconTint="#FF6B6B"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <!-- Timer or High Score Display -->
+            <!-- Timer or Score Display -->
             <TextView
                 android:id="@+id/tv_timer_score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="6dp"
                 android:text="@string/time_left"
                 android:textColor="#FFD700"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_turn_status" />
@@ -68,39 +85,45 @@
                 android:id="@+id/tv_secondary_score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="6dp"
                 android:text="@string/p2_score"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv_mode_badge" />
+                app:layout_constraintTop_toBottomOf="@id/btn_quit" />
 
-            <!-- Roll Dice Action Button -->
+            <!-- Equal Alignment Horizontal Chain for ROLL DICE and UNDO (AD) buttons -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_roll_dice"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="12dp"
+                android:layout_marginEnd="6dp"
                 android:text="@string/roll_dice"
                 android:textColor="@color/black"
                 app:backgroundTint="#FFD700"
                 app:cornerRadius="12dp"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintEnd_toStartOf="@id/btn_undo"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_timer_score" />
 
-            <!-- Peek Hint Rewarded Ad Button -->
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_peek_hint"
+                android:id="@+id/btn_undo"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="12dp"
-                android:text="@string/peek_hint"
+                android:layout_marginStart="6dp"
+                android:text="@string/undo_move"
                 android:textColor="@color/white"
                 app:strokeColor="#FFD700"
                 app:cornerRadius="12dp"
+                app:layout_constraintHorizontal_weight="1"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btn_roll_dice"
                 app:layout_constraintTop_toBottomOf="@id/tv_secondary_score" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -108,7 +131,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Center Dynamic Wooden Board View (1:1 Aspect Ratio) -->
-    <com.example.colormemorychess.ui.BoardView
+    <com.bparvej.memorychess.ui.BoardView
         android:id="@+id/board_view"
         android:layout_width="0dp"
         android:layout_height="0dp"

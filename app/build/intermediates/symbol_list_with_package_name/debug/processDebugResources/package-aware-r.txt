@@ -1,4 +1,4 @@
-com.example.colormemorychess
+com.bparvej.memorychess
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3053,6 +3053,7 @@ drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_defeat_shield
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3064,6 +3065,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable ic_victory_trophy
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3247,11 +3249,16 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_cancel_quit
 id btn_change_mode
-id btn_peek_hint
+id btn_close_how_to_play
+id btn_confirm_quit
+id btn_how_to_play
 id btn_play_again
+id btn_quit
 id btn_roll_dice
 id btn_start_game
+id btn_undo
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3383,6 +3390,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_result_icon
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3520,7 +3528,8 @@ id ratio
 id rb_easy
 id rb_hard
 id rb_medium
-id rb_pass_play
+id rb_pass_play_2p
+id rb_pass_play_3p
 id rb_solo
 id rb_vs_bot
 id rectangles
@@ -3643,7 +3652,6 @@ id transition_transform
 id triangle
 id tv_dialog_message
 id tv_dialog_title
-id tv_mode_badge
 id tv_secondary_score
 id tv_timer_score
 id tv_turn_status
@@ -3808,6 +3816,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_game_mode
 layout dialog_game_over
+layout dialog_how_to_play
+layout dialog_quit
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3948,6 +3958,7 @@ string fallback_menu_item_share_link
 string game_over
 string hide_bottom_view_on_scroll_behavior
 string high_score
+string how_to_play
 string icon_content_description
 string item_view_role_description
 string m3_exceed_max_badge_text_suffix
@@ -3988,7 +3999,8 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
-string mode_pass_play
+string mode_pass_play_2p
+string mode_pass_play_3p
 string mode_pass_play_desc
 string mode_solo
 string mode_solo_desc
@@ -4059,6 +4071,7 @@ string mtrl_timepicker_confirm
 string native_body
 string native_headline
 string native_media_view
+string no_undo_available
 string notifications_permission_confirm
 string notifications_permission_decline
 string notifications_permission_title
@@ -4071,13 +4084,12 @@ string offline_opt_in_message
 string offline_opt_in_title
 string p1_score
 string p2_score
+string p3_score
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string peek_hint
-string peek_hint_used
 string play_again
 string roll_dice
 string roll_first_prompt
@@ -4104,6 +4116,9 @@ string time_left
 string turn_bot
 string turn_p1
 string turn_p2
+string turn_p3
+string undo_move
+string undo_success
 string victory
 string watermark_label_prefix
 style AlertDialog_AppCompat

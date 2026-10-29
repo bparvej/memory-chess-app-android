@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.colormemorychess.app-mergeDebugResources-39:/values-tl/values-tl.xml",
+            "outputFile": "com.bparvej.memorychess.app-mergeDebugResources-39:/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\parvej\\.gradle\\caches\\transforms-4\\448a05d09f47d47171cc9e61971a6732\\transformed\\jetified-play-services-base-18.0.0\\res\\values-tl\\values.xml",

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\layout_activity_game.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\layout\\activity_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\layout_dialog_game_over.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\layout\\dialog_game_over.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\layout_dialog_how_to_play.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\layout\\dialog_how_to_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\layout_dialog_game_mode.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\layout\\dialog_game_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\layout_dialog_quit.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\layout\\dialog_quit.xml"
+    },
+    {
+        "merged": "com.bparvej.memorychess.app-release-41:/drawable_ic_victory_trophy.xml.flat",
+        "source": "com.bparvej.memorychess.app-main-42:/drawable/ic_victory_trophy.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-release-41:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\parvej\\.gradle\\daemon\\8.7\\com.bparvej.memorychess.app-main-42:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.bparvej.memorychess.app-release-41:/drawable_ic_defeat_shield.xml.flat",
+        "source": "com.bparvej.memorychess.app-main-42:/drawable/ic_defeat_shield.xml"
+    }
+]

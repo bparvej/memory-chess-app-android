@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.colormemorychess"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.bparvej.memorychess"
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="34" />
+        android:targetSdkVersion="36" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -36,10 +36,10 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <permission
-        android:name="com.example.colormemorychess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.bparvej.memorychess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.colormemorychess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.bparvej.memorychess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -58,7 +58,7 @@
             android:value="ca-app-pub-3940256099942544~3347511713" />
 
         <activity
-            android:name="com.example.colormemorychess.ui.GameActivity"
+            android:name="com.bparvej.memorychess.ui.GameActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.ColorMemoryChess" >
@@ -71,7 +71,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.colormemorychess.androidx-startup"
+            android:authorities="com.bparvej.memorychess.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -94,7 +94,7 @@
 
         <provider
             android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:authorities="com.example.colormemorychess.mobileadsinitprovider"
+            android:authorities="com.bparvej.memorychess.mobileadsinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

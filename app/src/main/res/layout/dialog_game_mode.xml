@@ -22,13 +22,30 @@
         android:layout_height="wrap_content">
 
         <RadioButton
+            android:id="@+id/rb_vs_bot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_vs_bot"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:checked="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/mode_vs_bot_desc"
+            android:textColor="@color/wood_accent"
+            android:textSize="12sp" />
+
+        <RadioButton
             android:id="@+id/rb_solo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mode_solo"
             android:textColor="@color/white"
-            android:textSize="16sp"
-            android:checked="true" />
+            android:textSize="16sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -40,10 +57,18 @@
             android:textSize="12sp" />
 
         <RadioButton
-            android:id="@+id/rb_pass_play"
+            android:id="@+id/rb_pass_play_2p"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/mode_pass_play"
+            android:text="@string/mode_pass_play_2p"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rb_pass_play_3p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_pass_play_3p"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
@@ -56,23 +81,6 @@
             android:textColor="@color/wood_accent"
             android:textSize="12sp" />
 
-        <RadioButton
-            android:id="@+id/rb_vs_bot"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/mode_vs_bot"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginBottom="8dp"
-            android:text="@string/mode_vs_bot_desc"
-            android:textColor="@color/wood_accent"
-            android:textSize="12sp" />
-
     </RadioGroup>
 
     <LinearLayout
@@ -80,7 +88,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:visibility="gone"
+        android:visibility="visible"
         android:layout_marginTop="8dp">
 
         <TextView
@@ -104,7 +112,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Easy"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:checked="true" />
 
             <RadioButton
                 android:id="@+id/rb_medium"
@@ -112,8 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Medium"
-                android:textColor="@color/white"
-                android:checked="true" />
+                android:textColor="@color/white" />
 
             <RadioButton
                 android:id="@+id/rb_hard"

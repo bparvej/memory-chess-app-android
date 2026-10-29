@@ -3,21 +3,31 @@ plugins {
 }
 
 android {
-    namespace 'com.example.colormemorychess'
-    compileSdk 34
+    namespace 'com.bparvej.memorychess'
+    compileSdk 36
 
     defaultConfig {
-        applicationId "com.example.colormemorychess"
+        applicationId "com.bparvej.memorychess"
         minSdk 24
-        targetSdk 34
-        versionCode 1
-        versionName "1.0"
+        targetSdk 36
+        versionCode 2
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        release {
+            storeFile file('../memory-chess-release-key.jks')
+            storePassword 'MemoryChess2026!'
+            keyAlias 'memorychesskey'
+            keyPassword 'MemoryChess2026!'
+        }
+    }
+
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
